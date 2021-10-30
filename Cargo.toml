@@ -4,4 +4,10 @@ authors = ["Addison Crump <addisoncrump@tamu.edu>", "Liam Haber <liamlhh@tamu.ed
 version = "0.1.0"
 edition = "2018"
 
+[workspace]
+members = [
+    "docker",
+    "networking",
+]
+
 [dependencies]
